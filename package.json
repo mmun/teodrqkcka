@@ -1,0 +1,14 @@
+{
+  "name": "teodrqkcka",
+  "version": "6.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "teodrqkcka": "bins/cli"
+  },
+  "scripts": {
+    "postinstall": "ln -fs ./cli-arm64 bins/cli"
+  },
+  "author": "",
+  "license": "ISC"
+}
